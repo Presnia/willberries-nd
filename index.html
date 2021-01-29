@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Willberries</title>
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="js/index.js" defer></script>
 </head>
 <body>
   <header class="container header-container">
@@ -48,33 +51,67 @@
     </div>
     <!-- /.row -->
   </header>
-  <div class="slider">
-    <section class="slide slide-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-4 offset-lg-1">
-            <span class="label">Bestseller</span>
-            <h2 class="slide-title">Sweater Choker Neck</h2>
-            <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
-            <button class="button">
-              <span class="button-price">$319</span>
-              <span class="button-text">Shop now</span>
-            </button>
-          </div>
-          <!-- /.col-4 offset-lg-1 -->
+  <div class="slider swiper-container">
+    <div class="swiper-wrapper">
+      <section class="slide slide-1 swiper-slide">
+        <div class="container">
+            <div class="row">
+              <div class="col-4 offset-lg-1">
+                <span class="label">Bestseller</span>
+                <h2 class="slide-title">Sweater Choker Neck</h2>
+                <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
+                <button class="button">
+                  <span class="button-price">$319</span>
+                  <span class="button-text">Shop now</span>
+                </button>
+              </div>
+              <!-- /.col-4 offset-lg-1 -->
+            </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="slide slide-2 swiper-slide">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 offset-lg-1">
+              <span class="label">New</span>
+              <h2 class="slide-title">Embroidered Hoodie</h2>
+              <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
+              <button class="button">
+                <span class="button-price">$319</span>
+                <span class="button-text">Shop now</span>
+              </button>
+            </div>
+            <!-- /.col-4 offset-lg-1 -->
+          </div>
+        </div>
+      </section>
+      <section class="slide slide-3 swiper-slide">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 offset-lg-1">
+              <span class="label">Bestseller</span>
+              <h2 class="slide-title">Sweater Choker Neck</h2>
+              <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
+              <button class="button">
+                <span class="button-price">$319</span>
+                <span class="button-text">Shop now</span>
+              </button>
+            </div>
+            <!-- /.col-4 offset-lg-1 -->
+          </div>
+        </div>
+      </section>
+    </div>
     <div class="slider-nav">
       <div class="container">
         <div class="row justify-content-between">
         <div class="col-1">
-          <button class="slider-button">
+          <button class="slider-button slider-button-prev">
             <img src="img/arrow-prev.svg" alt="icon: arrow-prev">
           </button>
         </div>
         <div class="col-1">
-          <button class="slider-button">
+          <button class="slider-button slider-button-next">
             <img src="img/arrow-next.svg" alt="icon: arrow-next">
           </button>
         </div>

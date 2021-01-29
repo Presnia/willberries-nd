@@ -64,6 +64,13 @@ body {
 .slide-1 {
   background: #B4D1E0 url('../img/slide-image-1.png') no-repeat top right 25%;
 }
+.slide-2 {
+  background: #B4D1E0 url('../img/slide-image-1.png') no-repeat top right 25%;
+  background-size: contain;
+}
+.slide-3 {
+  background: #B4D1E0 url('../img/slide-image-1.png') no-repeat top right 25%;
+}
 
 .slide-title {
   margin-top: 20px;
@@ -104,6 +111,7 @@ body {
   width: 100%;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 12;
 }
 
 .slider-button {

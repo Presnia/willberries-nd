@@ -212,3 +212,44 @@ body {
   font-weight: 900;
   color: #262D33;
 }
+
+.goods-card {
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.goods-card .label {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+}
+
+.goods-title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: Roboto Slab, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #262D33;
+}
+
+.goods-description {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4B5157;
+}
+
+.goods-price {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #262D33;
+}

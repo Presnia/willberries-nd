@@ -195,3 +195,20 @@ body {
 .card-price {
   color: #fff;
 }
+
+.section-title {
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #262D33;
+}
+
+.more {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 900;
+  color: #262D33;
+}
